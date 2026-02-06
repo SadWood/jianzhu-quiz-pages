@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename)
 const webDir = path.resolve(__dirname, '..')
 const webPublicDir = path.join(webDir, 'public')
 const dataDir = path.join(webPublicDir, 'data')
+const questionBankPath = path.join(dataDir, 'question-bank.json')
+const chapterIndexPath = path.join(dataDir, 'chapter-index.json')
 const publicOutputDir = path.join(webPublicDir, 'output')
 const defaultOutputRoot = path.join(webDir, 'output')
 
@@ -89,7 +91,10 @@ function getOutputRootFromArgs() {
   }
 
   const target = customPath || defaultOutputRoot
-  return path.isAbsolute(target) ? target : path.resolve(process.cwd(), target)
+  return {
+    outputRoot: path.isAbsolute(target) ? target : path.resolve(process.cwd(), target),
+    isCustomOutput: Boolean(customPath)
+  }
 }
 
 async function assertValidOutputRoot(outputRoot) {
@@ -98,22 +103,64 @@ async function assertValidOutputRoot(outputRoot) {
     if (!stat.isDirectory()) {
       throw new Error(`不是目录: ${outputRoot}`)
     }
+    return true
   } catch {
-    throw new Error(
-      [
-        `未找到可用 output 目录: ${outputRoot}`,
-        `默认读取: ${defaultOutputRoot}`,
-        '可通过参数指定路径，例如:',
-        '  bun scripts/build-bank.mjs ../output',
-        '  bun scripts/build-bank.mjs --output ../output'
-      ].join('\n')
-    )
+    return false
   }
 }
 
-async function build(outputRoot) {
+async function hasExistingBuiltData() {
+  try {
+    await fs.access(questionBankPath)
+    await fs.access(chapterIndexPath)
+    return true
+  } catch {
+    return false
+  }
+}
+
+function createOutputMissingError(outputRoot) {
+  return new Error(
+    [
+      `未找到可用 output 目录: ${outputRoot}`,
+      `默认读取: ${defaultOutputRoot}`,
+      '可通过参数指定路径，例如:',
+      '  bun scripts/build-bank.mjs ../output',
+      '  bun scripts/build-bank.mjs --output ../output'
+    ].join('\n')
+  )
+}
+
+async function resolveBuildStrategy(outputRoot, isCustomOutput) {
+  const hasOutput = await assertValidOutputRoot(outputRoot)
+  if (hasOutput) {
+    return 'rebuild'
+  }
+
+  if (isCustomOutput) {
+    throw createOutputMissingError(outputRoot)
+  }
+
+  const hasBuiltData = await hasExistingBuiltData()
+  if (hasBuiltData) {
+    console.warn(
+      [
+        `未找到默认 output 目录: ${outputRoot}`,
+        '检测到 public/data 下已有题库数据，跳过重建并继续站点构建。'
+      ].join('\n')
+    )
+    return 'reuse'
+  }
+
+  throw createOutputMissingError(outputRoot)
+}
+
+async function build(outputRoot, isCustomOutput) {
   await ensureDir(dataDir)
-  await assertValidOutputRoot(outputRoot)
+  const strategy = await resolveBuildStrategy(outputRoot, isCustomOutput)
+  if (strategy === 'reuse') {
+    return
+  }
 
   const subjects = await listDirs(outputRoot)
   const questions = []
@@ -201,15 +248,15 @@ async function build(outputRoot) {
     subjects: chapterIndex
   }
 
-  await fs.writeFile(path.join(dataDir, 'question-bank.json'), JSON.stringify(bank, null, 2), 'utf-8')
-  await fs.writeFile(path.join(dataDir, 'chapter-index.json'), JSON.stringify(index, null, 2), 'utf-8')
+  await fs.writeFile(questionBankPath, JSON.stringify(bank, null, 2), 'utf-8')
+  await fs.writeFile(chapterIndexPath, JSON.stringify(index, null, 2), 'utf-8')
 
   console.log(`题库构建完成：${questions.length} 题（来源: ${outputRoot}）`)
 }
 
-const outputRoot = getOutputRootFromArgs()
+const { outputRoot, isCustomOutput } = getOutputRootFromArgs()
 
-build(outputRoot).catch((error) => {
+build(outputRoot, isCustomOutput).catch((error) => {
   console.error('题库构建失败:', error)
   process.exit(1)
 })
