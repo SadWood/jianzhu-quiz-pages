@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Ma Shan Zheng", cursive;
+  --font-body: "Noto Serif SC", serif;
+  --color-paper: #f5efe4;
+  --color-ink: #1f1b18;
+  --color-main: #204662;
+  --color-accent: #b48d59;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    background:
+      radial-gradient(circle at 15% 10%, rgb(236 165 82 / 0.18), transparent 40%),
+      radial-gradient(circle at 90% 25%, rgb(70 107 143 / 0.18), transparent 35%),
+      linear-gradient(140deg, #f5efe4 0%, #efe6d6 100%);
+  }
+}
