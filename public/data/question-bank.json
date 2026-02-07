@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "generatedAt": "2026-02-06T02:28:45.636Z",
+  "generatedAt": "2026-02-07T02:59:48.883Z",
   "total": 409,
   "questions": [
     {
@@ -15,7 +15,7 @@
         "C": "铝塑板",
         "D": "水玻璃"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -63,7 +63,7 @@
         "C": "研碎成颗粒物",
         "D": "做成正方形"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -79,7 +79,7 @@
         "C": "堆积密度",
         "D": "比重"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -143,7 +143,7 @@
         "C": "沥青",
         "D": "砖"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -191,7 +191,7 @@
         "C": "木材",
         "D": "塑料"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -223,7 +223,7 @@
         "C": "碳钢",
         "D": "花岗岩"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -319,7 +319,7 @@
         "C": "烧土制品",
         "D": "砂浆和石灰乳"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -335,7 +335,7 @@
         "C": "氢氧化钙",
         "D": "碳化钙"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -351,7 +351,7 @@
         "C": "生石灰、碎料(碎砖石类)、锯木屑",
         "D": "石灰、砂子、纸筋"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -367,7 +367,7 @@
         "C": "碳化钙",
         "D": "二氧化钙"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -383,7 +383,7 @@
         "C": "适用于室内装饰、隔热、保温、吸声和防火等",
         "D": "适用于65℃以上的环境"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -479,7 +479,7 @@
         "C": "高铝水泥耐火混凝土",
         "D": "镁质水泥耐火混凝土"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -511,7 +511,7 @@
         "C": "0~5%石灰石或粒化高炉矿渣",
         "D": "适量石膏磨细制成的水硬性胶凝材料"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -831,7 +831,7 @@
         "C": "20%~35%",
         "D": "30%~35%"
       },
-      "answer": "B",
+      "answer": "A",
       "hasImage": false,
       "imagePath": null
     },
@@ -1295,7 +1295,7 @@
         "C": "用于面层抹灰，多用纸筋石灰灰浆",
         "D": "用于易碰撞或潮湿的地方，应采用混合砂浆"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -1327,7 +1327,7 @@
         "C": "四矾水玻璃",
         "D": "金属皂类"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -1359,7 +1359,7 @@
         "C": "屋顶",
         "D": "地下室"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -1391,7 +1391,7 @@
         "C": "碳化灰砂砖",
         "D": "耐火砖"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -1407,7 +1407,7 @@
         "C": "灰砂砖",
         "D": "煤矸石砖"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -1471,7 +1471,7 @@
         "C": "300mm",
         "D": "400mm"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -1503,7 +1503,7 @@
         "C": "陶瓷",
         "D": "瓦"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -1615,7 +1615,7 @@
         "C": "50°C",
         "D": "60°C"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -1647,7 +1647,7 @@
         "C": "沥青浆膏",
         "D": "硫酸铵和磷酸铵的混合物"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -1695,7 +1695,7 @@
         "C": "冲击韧性",
         "D": "疲劳极限"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -1759,7 +1759,7 @@
         "C": "锰",
         "D": "钾"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -1855,7 +1855,7 @@
         "C": "碳素钢丝",
         "D": "钢绞线"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -1951,7 +1951,7 @@
         "C": "膨胀型、以有机树脂为基料的钢结构防火涂料",
         "D": "非膨胀型、以无机绝热材料为主的钢结构防火涂料"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2079,7 +2079,7 @@
         "C": "硬聚氯乙烯塑料",
         "D": "低压聚乙烯塑料"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2095,7 +2095,7 @@
         "C": "环氧树脂",
         "D": "聚丙烯"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2143,7 +2143,7 @@
         "C": "环氧树脂",
         "D": "聚苯乙烯"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2207,7 +2207,7 @@
         "C": "聚氯乙烯",
         "D": "聚丙烯"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2223,7 +2223,7 @@
         "C": "矿棉板",
         "D": "聚氨酯装饰板"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2271,7 +2271,7 @@
         "C": "环氧树脂",
         "D": "甲醇胺"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2287,7 +2287,7 @@
         "C": "能粘金属、玻璃、塑料、木材等",
         "D": "价格比较便宜"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2335,7 +2335,7 @@
         "C": "憎水性",
         "D": "导电性（耐热性）"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2351,7 +2351,7 @@
         "C": "天然沥青",
         "D": "建筑石油沥青"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -2367,7 +2367,7 @@
         "C": "地沥青质",
         "D": "蜡"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2383,7 +2383,7 @@
         "C": "塑性",
         "D": "黏度"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2399,7 +2399,7 @@
         "C": "温度敏感性",
         "D": "大气稳定性"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2479,7 +2479,7 @@
         "C": "胎纸每平方米质量",
         "D": "不透水程度"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2527,7 +2527,7 @@
         "C": "石油沥青",
         "D": "煤焦油"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2543,7 +2543,7 @@
         "C": "耐热度",
         "D": "弹性"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2575,7 +2575,7 @@
         "C": "合成高分子防水卷材",
         "D": "树脂类防水卷材"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -2591,7 +2591,7 @@
         "C": "弹性和抗拉强度大",
         "D": "使用范围在 -30~90℃，寿命耐久达25年"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2671,7 +2671,7 @@
         "C": "CB型丙烯酸酯弹性防水涂料",
         "D": "水乳型SBS改性沥青防水涂料"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -2703,7 +2703,7 @@
         "C": "黏结力",
         "D": "和易性"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2719,7 +2719,7 @@
         "C": "桐油沥青防水油膏",
         "D": "高模量硅酮密封膏"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2911,7 +2911,7 @@
         "C": "无碱超细玻璃棉",
         "D": "高硅氧棉"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -2959,7 +2959,7 @@
         "C": "聚苯乙烯",
         "D": "陶瓷纤维"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3087,7 +3087,7 @@
         "C": "泡沫塑料",
         "D": "穿孔五夹板"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3215,7 +3215,7 @@
         "C": "水性阻燃剂",
         "D": "溶剂型胶黏剂"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3231,7 +3231,7 @@
         "C": "卫生陶瓷",
         "D": "商品混凝土"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -3247,7 +3247,7 @@
         "C": "游离甲醛",
         "D": ""
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -3279,7 +3279,7 @@
         "C": "脂胶漆",
         "D": "大漆"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3295,7 +3295,7 @@
         "C": "调和漆",
         "D": "硝基漆"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -3327,7 +3327,7 @@
         "C": "大漆",
         "D": "清漆"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3359,7 +3359,7 @@
         "C": "树脂漆",
         "D": "调和漆"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3407,7 +3407,7 @@
         "C": "耐盐",
         "D": "中性"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -3455,7 +3455,7 @@
         "C": "抗拉强度较高",
         "D": "抗静电性较好"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3487,7 +3487,7 @@
         "C": "毯面结构",
         "D": "耐磨性"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3615,7 +3615,7 @@
         "C": "B2级",
         "D": "B3级"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -3679,7 +3679,7 @@
         "C": "醋酸",
         "D": "碱"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3695,7 +3695,7 @@
         "C": "一氧化碳",
         "D": "二氧化硫"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3711,7 +3711,7 @@
         "C": "能抗火",
         "D": "能耐酸"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -3775,7 +3775,7 @@
         "C": "石英粉",
         "D": "陶土"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3791,7 +3791,7 @@
         "C": "釉面瓷砖",
         "D": "彩釉地砖"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -3807,7 +3807,7 @@
         "C": "劈离砖",
         "D": "玻化砖"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3823,7 +3823,7 @@
         "C": "通体砖",
         "D": "红地砖"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -3871,7 +3871,7 @@
         "C": "钢化玻璃",
         "D": "磨砂玻璃"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3887,7 +3887,7 @@
         "C": "钢化玻璃",
         "D": "泡沫玻璃"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -3919,7 +3919,7 @@
         "C": "镭射玻璃",
         "D": "钢化玻璃"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3967,7 +3967,7 @@
         "C": "防辐射玻璃",
         "D": "热反射玻璃"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -3983,7 +3983,7 @@
         "C": "镜面膜镀膜玻璃",
         "D": "热反射膜镀膜玻璃"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -3999,7 +3999,7 @@
         "C": "II、IV",
         "D": "III、IV"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -4015,7 +4015,7 @@
         "C": "热反射膜镀膜玻璃",
         "D": "导电膜镀膜玻璃"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -4047,7 +4047,7 @@
         "C": "热反射玻璃",
         "D": "钢化玻璃"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -4527,7 +4527,7 @@
         "C": "窗户上设遮阳装置",
         "D": "增大窗墙面积比"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -4639,7 +4639,7 @@
         "C": "组合式遮阳",
         "D": "百叶式遮阳"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -4687,7 +4687,7 @@
         "C": "机械排风，不用空调",
         "D": "通风降温，必要时机械排风"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -4751,7 +4751,7 @@
         "C": "红色",
         "D": "绿色"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -4927,7 +4927,7 @@
         "C": "粉刷墙面",
         "D": "有机玻璃"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5039,7 +5039,7 @@
         "C": "重庆",
         "D": "广州"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5119,7 +5119,7 @@
         "C": "餐厅",
         "D": "厨房"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5343,7 +5343,7 @@
         "C": "高压钠灯",
         "D": "紧凑型荧光灯"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -5359,7 +5359,7 @@
         "C": "荧光灯",
         "D": "发光二极管(LED)"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -5375,7 +5375,7 @@
         "C": "卤钨灯",
         "D": "钠灯"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -5391,7 +5391,7 @@
         "C": "高压钠灯",
         "D": "荧光高压汞灯"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5423,7 +5423,7 @@
         "C": "金属卤化物灯",
         "D": "白炽灯"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5439,7 +5439,7 @@
         "C": "金属卤化物灯",
         "D": "紧凑型荧光灯"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5519,7 +5519,7 @@
         "C": "局部照明",
         "D": "混合照明"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -5567,7 +5567,7 @@
         "C": "疏散照明",
         "D": "警卫照明"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -5647,7 +5647,7 @@
         "C": "灯具安装高度越低越好",
         "D": "灯管长轴垂直于黑板布置"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5727,7 +5727,7 @@
         "C": "钢",
         "D": "混凝土"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -5743,7 +5743,7 @@
         "C": "扩散",
         "D": "绕射"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -5791,7 +5791,7 @@
         "C": "0.5",
         "D": "0.6"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": true,
       "imagePath": "output/02-建筑物理/images/第6节：建筑声学（一）/page-0005.png"
     },
@@ -5855,7 +5855,7 @@
         "C": "86dB",
         "D": "87dB"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -5887,7 +5887,7 @@
         "C": "79dB",
         "D": "82dB"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -5903,7 +5903,7 @@
         "C": "67dB",
         "D": "70dB"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -5967,7 +5967,7 @@
         "C": "59dB",
         "D": "56dB"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -6015,7 +6015,7 @@
         "C": "0.8s",
         "D": "1.2s"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -6191,7 +6191,7 @@
         "C": "穿孔率10%的穿孔板",
         "D": "三合板"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -6287,7 +6287,7 @@
         "C": "9dB",
         "D": "12dB"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -6303,7 +6303,7 @@
         "C": "32dB",
         "D": ""
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -6335,7 +6335,7 @@
         "C": "高于38dB",
         "D": "无法判断"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -6383,7 +6383,7 @@
         "C": "使两层玻璃的厚度明显不同",
         "D": "使两层玻璃的厚度相同"
       },
-      "answer": "A",
+      "answer": "C",
       "hasImage": false,
       "imagePath": null
     },
@@ -6447,7 +6447,7 @@
         "C": "14Hz",
         "D": "18Hz"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
@@ -6463,7 +6463,7 @@
         "C": "10Hz",
         "D": "14Hz"
       },
-      "answer": "A",
+      "answer": "B",
       "hasImage": false,
       "imagePath": null
     },
@@ -6495,7 +6495,7 @@
         "C": "楼板下设置隔声吊顶",
         "D": "增加楼板的厚度"
       },
-      "answer": "A",
+      "answer": "D",
       "hasImage": false,
       "imagePath": null
     },
